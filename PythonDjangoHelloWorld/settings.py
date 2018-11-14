@@ -79,7 +79,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    },
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'portfoliodb',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'django1234', # whatever I set it to
+    #     'HOST': 'localhost',
+    #     'PORT': '5432',
+    # }
 }
 
 
